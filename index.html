@@ -286,16 +286,17 @@
             <div class="bg-gray-200 py-4 px-4 rounded-lg">
               <h1 class="text-3xl font-bold">Select Your Seat</h1>
             <div class="divider divider-start"></div>
-            <div class="flex flex-col gap-6">
+            <div>
               <div class="grid grid-cols-3">
                 <p class="font-bold">Seat <span id="count">0</span></p>
                 <p class="font-bold">Class</p>
                 <p class="font-bold">Price</p>
-                <ul id="select-seat" class="font-bold w-[450px] mt-2">
-                  <h2 id="no-seat" class="font-bold text-2xl text-error">No Seat Booked</h2>
-                </ul>
               </div>
-              
+              <!-- seat select addd  -->
+              <ul id="select-seat" class="font-bold mt-2">
+                <h2 id="no-seat" class="font-bold text-2xl text-error">No Seat Booked</h2>
+              </ul>
+              <!-- end  -->
             </div>
             <div class="divider divider-start"></div>
             <div class="grid grid-cols-3">
@@ -345,50 +346,48 @@
               </div>
             </div> 
           </div>
-
-          
-          </div>
-          
-        
-
-          <footer class="bg-black mt-16 px-4 py-16 rounded-xl text-white">
-            <div class="flex justify-between">
-              <h1 class="text-3xl font-extrabold">Green Line Ticket</h1>
-              <p class="font-bold">Download our app</p>
-            </div>
-            <div class="flex justify-between mt-3 mb-6">
-              <p>
-                P-Ticket is a digital platform to make <br> your daily commuting better.
-              </p>
-              <div>
-                <div class="flex">
-                  <img src="images/playstore.png" class="h-16" alt="">
-                  <div class="flex flex-col gap-3">
-                    <p class="font-bold">Get In</p>
-                    <p>Google Play</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-             <hr>
-            <div class="mt-5">
-              <div class="flex justify-between">
-                <p>
-                  @all rights reserved, P-Ticket services limited.2024
-                </p>
-                <div class="flex gap-4">
-                  <a href="">Terms & condition</a>
-                  <a href="">Return & refund policy</a>
-                  <a href="">Privacy policy</a>
-          
-                </div>
-              </div>
-            </div>
-          
-          </footer>
-      
+        </div>
       </section>
     </main>
+
+        <!-- footer section start  -->
+        <footer class="bg-black mt-16 px-4 pt-16 pb-6 lg:pb-0 rounded-xl text-white">
+          <section class="max-w-6xl mx-auto">
+           <div class="lg:flex justify-between">
+             <h1 class="text-3xl font-extrabold">Green Line Ticket</h1>
+             <p class="font-bold">Download our app</p>
+           </div>
+           <div class="lg:flex justify-between mt-3 mb-6">
+             <p class="mt-4 mb-8">
+               P-Ticket is a digital platform to make <br> your daily commuting better.
+             </p>
+             <div>
+               <div class="flex gap-4">
+                 <img src="images/playstore.png" class="w-[55px] h-16" alt="">
+                 <div class="flex flex-col gap-3">
+                   <p class="font-bold">Get In</p>
+                   <p>Google Play</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+            <hr>
+           <div class="mt-5">
+             <div class="lg:flex justify-between">
+               <p class="mb-4">
+                 @all rights reserved, P-Ticket services limited.2024
+               </p>
+               <div>
+                 <ul  class="inline-block lg:flex gap-4 space-y-2 lg:space-y-0">
+                   <li><a href="#">Terms & condition</a></li>
+                    <li><a href="#">Return & refund policy</a></li>
+                   <li><a href="#">Privacy policy</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+          </section>
+         </footer>
     <script src="navbar.js"></script>
     <script src="java-scripts/seat.js"></script>
     <script src="script.js"></script>
